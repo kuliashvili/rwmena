@@ -1,0 +1,124 @@
+/* Color Palette */
+:root {
+    --color-primary: #fb2056;
+    --color-secondary: #004668;
+    --color-main-text: #444444;
+    --color-secondary-text: #958b83;
+    --color-success: #28a745;
+    --color-warning: #ffc107;
+    --color-danger: #dc3545;
+    --color-info: #17a2b8;
+    --color-white: #ffffff;
+    --color-hover: #d10c3d;
+  
+    /* Sizes */
+    --size-0: 0px;
+    --size-6: 6px;
+    --size-8: 8px;
+    --size-12: 12px;
+    --size-16: 16px;
+    --size-20: 20px;
+    --size-24: 24px;
+    --size-32: 32px;
+    --size-40: 40px;
+    --size-48: 48px;
+    --size-56: 56px;
+    --size-64: 64px;
+    --size-72: 72px;
+    --size-80: 80px;
+    --size-84: 84px;
+    --size-96: 96px;
+    --size-128: 128px;
+    --size-168: 168px;
+  
+    /* spacing */
+  
+    --space-2: 2px;
+    --space-4: 4px;
+    --space-6: 6px;
+    --space-8: 8px;
+    --space-12: 12px;
+    --space-16: 16px;
+    --space-20: 20px;
+    --space-24: 24px;
+    --space-32: 32px;
+    --space-36: 36px;
+    --space-40: 40px;
+    --space-48: 48px;
+    --space-64: 64px;
+    --space-72: 72px;
+    --space-80: 80px;
+    --space-96: 96px;
+    --space-128: 128px;
+    --space-256: 256px;
+    --space-1024: 1024px;
+  
+    /* Typography */
+    --font-primary: "Roboto", serif;
+  
+    /* Font Sizes */
+    --font-small: 12px;
+    --font-medium: 14px;
+    --font-large: 16px;
+    --font-extra-large: 20px;
+    --font-header: 50px;
+  
+    /* Headings */
+    --font-h1: 40px;
+    --font-h2: 30px;
+    --font-h3: 26px;
+    --font-h4: 24px;
+    --font-h5: 20px;
+    --font-h6: 15px;
+  
+    /* Font Weights */
+    --font-weight-light: 300;
+    --font-weight-regular: 400;
+    --font-weight-medium: 500;
+    --font-weight-bold: 700;
+  
+    /* section Spacing */
+    --spacing-16: 16px;
+    --spacing-24: 24px;
+    --spacing-36: 36px;
+    --spacing-50: 50px;
+  
+    /* Icons */
+    --icon-small: 16px;
+    --icon-medium: 20px;
+    --icon-large: 28px;
+    --icon-extra-large: 36px;
+  
+    /* Layout */
+    --container-width-desktop: 1200px;
+    --container-width-tablet: 768px;
+    --container-width-mobile: 577px;
+  
+    /* Margin */
+    --margin-desktop: 32px;
+    --margin-tablet: 16px;
+    --margin-mobile: 8px;
+  
+    /* Padding */
+    --padding-desktop: 32px;
+    --padding-tablet: 16px;
+    --padding-mobile: 8px;
+  
+    /* Borders */
+    --border-thin: 1px;
+    --border-medium: 2px;
+    --border-thick: 4px;
+    --border-radius-small: 8px;
+    --border-radius-medium: 16px;
+    --border-radius-large: 32px;
+  
+    /* Button height */
+    --height-small: 32px;
+    --height-medium: 36px;
+    --height-large: 50px;
+    /* Button width */
+    --width-small: 120px;
+    --width-medium: 150px;
+    --width-large: 180px;
+  }
+  

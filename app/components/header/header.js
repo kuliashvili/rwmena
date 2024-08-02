@@ -2,6 +2,7 @@
 import "./header.css"
 import Image from "next/image"
 import Reader from "../../assets/reading.jpg"
+import Link from "next/link"
 function Header(){
     return (
         <div className="header" >
@@ -11,13 +12,13 @@ function Header(){
                 </div>
                 <div className="header-right" >
                     <div className="header-item" >
-                        <p className="header-item-text" >მთავარი</p>
+                        <Link href="/" className="header-item-text" >მთავარი</Link>
                     </div>
                     <div className="header-item" >
                         <p className="header-item-text" >ბლოგები</p>
                     </div>
                     <div className="header-item" >
-                        <p className="header-item-text" >ინფორმაცია</p>
+                        <Link href="/info" className="header-item-text" >ინფორმაცია</Link>
                     </div>
                     <div className="header-item" >
                         <p className="header-item-text" >კონტაქტი</p>

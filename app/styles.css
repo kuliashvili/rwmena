@@ -1,5 +1,34 @@
+.content{
+    min-height: calc(100vh - 210px);
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+  }
+  .container{
+    margin-top: 50px;
+    margin-bottom: 20px;
+  }
+  .main{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .main-picture{
+    border-radius: 12px;
+  }
+  
 .konteinrtest{
     min-height: 500px;
     background-color: rgb(205, 207, 209);
     color: green;
+}
+.blogs{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
 }
