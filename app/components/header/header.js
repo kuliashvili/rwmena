@@ -1,7 +1,7 @@
 
 import "./header.css"
 import Image from "next/image"
-import Reader from "../../assets/reading.jpg"
+import Reader from "../../../public/assets/reading.jpg"
 import Link from "next/link"
 function Header(){
     return (

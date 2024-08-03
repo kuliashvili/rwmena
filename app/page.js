@@ -1,19 +1,28 @@
-import Header from "./components/header/header";
 import Image from "next/image";
 import "./styles.css";
-import Supper from "./assets/lastsupper.jpg"
-import Blog from "./components/blog/blog"
+import Supper from "../public/assets/lastsupper.jpg";
+import Blog from "./components/blog/blog.js";
+import blogData from "./data/blogs.json";
 
 export default function Home() {
   return (
     <>
-      <div className="main container ">
-        <Image className="main-picture"  src={Supper} width={3000} height={1500} alt="last supper" layout="responsive" />
+      <div className="main">
+        <Image
+          className="main-picture"
+          src={Supper}
+          width={3000}
+          height={1500}
+          alt="last supper"
+          layout="responsive"
+          objectFit="cover"
+        />
+        <div className="overlay"></div>
       </div>
-      <div className="blogs">
-        <Blog/>
-        <Blog/>
-        <Blog/>
+      <div className="blogs container">
+        {blogData.map((blog) => (
+          <Blog key={blog.id} title={blog.title} image={blog.image} />
+        ))}
       </div>
       <div className="konteinrtest container">izi</div>
     </>

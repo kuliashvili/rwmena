@@ -1,0 +1,34 @@
+[
+    {
+        "id": 1,
+        "slug": "first post",
+        "title": "random title",
+        "image": "/assets/blogimages/first-post.jpg"
+    },
+    {
+        "id": 2,
+        "slug": "first post",
+        "title": "random title",
+        "image": "/assets/blogimages/first-post.jpg"    },
+    {
+        "id": 3,
+        "slug": "first post",
+        "title": "random title",
+        "image": "/assets/blogimages/first-post.jpg"    },
+    {
+        "id": 4,
+        "slug": "first post",
+        "title": "random title",
+        "image": "/assets/blogimages/first-post.jpg"    },
+    {
+        "id": 5,
+        "slug": "first post",
+        "title": "random title",
+        "image": "/assets/blogimages/first-post.jpg"    },
+    {
+        "id": 6,
+        "slug": "first post",
+        "title": "random title",
+        "image": "/assets/blogimages/first-post.jpg"    }
+
+]
