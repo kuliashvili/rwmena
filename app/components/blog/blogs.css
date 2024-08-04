@@ -4,6 +4,7 @@
   justify-content: center;
   align-items: center;
   width: 100%;
+  
 }
 
 .blog {
@@ -16,9 +17,11 @@
   justify-content: center;
   align-items: center;
   margin-bottom: 20px;
+  padding: 10px;
+  background-color: #bf9b30;
 }
 .blog-inner {
-  margin: 10px;
+  width: 100%;
 }
 .blog-picture {
   border-radius: 12px;
@@ -43,8 +46,12 @@
 @media (min-width: 992px) {
     .blog {
         width: 28%;
+        min-height: 330px;
       }
 }
 
 @media (min-width: 1200px) {
+  .blog {
+    min-height: 330px;
+  }
 }

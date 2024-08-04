@@ -3,6 +3,7 @@ import "./styles.css";
 import Supper from "../public/assets/lastsupper.jpg";
 import Blog from "./components/blog/blog.js";
 import blogData from "./data/blogs.json";
+import Button from "./components/button/button";
 
 export default function Home() {
   return (
@@ -24,6 +25,7 @@ export default function Home() {
           <Blog key={blog.id} title={blog.title} image={blog.image} />
         ))}
       </div>
+      <Button redirectTo={"/info"} text={"Helloworld"}  />
       <div className="konteinrtest container">izi</div>
     </>
   );

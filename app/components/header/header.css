@@ -4,7 +4,7 @@
     align-items: center;
     width: 100%;
     height: 100px;
-    background-color: gray;
+    background-color: #ffcf40;
 }
 .header-inner{
     display: flex;

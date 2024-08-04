@@ -2,33 +2,43 @@
     {
         "id": 1,
         "slug": "first post",
-        "title": "random title",
+        "title": "იესოს ისტორია და მისი ცხოვრების მთავარი მოვლენები",
         "image": "/assets/blogimages/first-post.jpg"
     },
     {
         "id": 2,
         "slug": "first post",
-        "title": "random title",
+        "title": "რწმენის მნიშვნელობა და როგორ შეგვიძლია მისი განმტკიცება",
         "image": "/assets/blogimages/first-post.jpg"    },
     {
         "id": 3,
         "slug": "first post",
-        "title": "random title",
+        "title": "წმინდა წერილის მნიშვნელობა ჩვენს ცხოვრებაში",
         "image": "/assets/blogimages/first-post.jpg"    },
     {
         "id": 4,
         "slug": "first post",
-        "title": "random title",
+        "title": "იესოს მიერ ჩადენილი სასწაულები და მათი მნიშვნელობა",
         "image": "/assets/blogimages/first-post.jpg"    },
     {
         "id": 5,
         "slug": "first post",
-        "title": "random title",
+        "title": "იესოს ურთიერთობა და სწავლებები ადამიანებთან",
         "image": "/assets/blogimages/first-post.jpg"    },
     {
         "id": 6,
         "slug": "first post",
-        "title": "random title",
+        "title": "იესოს ურთიერთობა და სწავლებები ადამიანებთან",
+        "image": "/assets/blogimages/first-post.jpg"    },
+    {
+        "id": 7,
+        "slug": "first post",
+        "title": "იესოს ურთიერთობა და სწავლებები ადამიანებთან",
+        "image": "/assets/blogimages/first-post.jpg"    },
+    {
+        "id": 8,
+        "slug": "first post",
+        "title": "მორალური და სულიერი სწავლება, როგორ გეხმარება",
         "image": "/assets/blogimages/first-post.jpg"    }
 
 ]

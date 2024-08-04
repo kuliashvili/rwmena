@@ -2,6 +2,14 @@
   padding: 0;
   margin: 0;
 }
+.content {
+  min-height: calc(100vh - 210px);
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+}
 body {
   min-height: 100vh;
   display: flex;
@@ -9,6 +17,7 @@ body {
   justify-content: start;
   align-items: center;
   overflow-x: hidden;
+  background-color: #ffdc73;
 }
 
 .content,
@@ -16,3 +25,4 @@ body {
 .footer-inner {
   max-width: 2000px;
 }
+
