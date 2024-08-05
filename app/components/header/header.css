@@ -25,35 +25,43 @@
 }
 .header-right-mobile {
     position: fixed;
-  right: 0;
-  top: 0;
-  width: 50%;
-  height: 100vh;
-  background-color: #bf9b30;
-  border-left: 2px solid white;
-  display: flex;
-  flex-direction: column;
-  justify-content: start;
-  align-items: center;
-  z-index: 10;
-}
-.header-right-mobile-inner {
-    margin-top: 50px;
-    position: relative;
-    width: 90%;
+    right: -50%;
+    top: 0;
+    width: 50%;
+    height: 100vh;
+    background-color: #bf9b30;
+    border-left: 2px solid white;
     display: flex;
     flex-direction: column;
     justify-content: start;
-    align-items: end;
+    align-items: center;
+    z-index: 10;
+    transition: right 0.3s ease;
+    pointer-events: none;
+  }
+  
+  .header-right-mobile.open {
+    right: 0;
+    pointer-events: auto;
+  }
+  
+.header-right-mobile-inner {
+  margin-top: 50px;
+  position: relative;
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: end;
 }
-.burger-menu-close{
-    position: absolute;
-    top: 10px;
-    left: 10px;
+.burger-menu-close {
+  position: absolute;
+  top: 10px;
+  left: 10px;
 }
 
 .logo {
-  border-radius: 12px;
+  border-radius: 50%;
 }
 .hide {
   display: none;

@@ -1,6 +1,5 @@
 import Image from "next/image";
 import "./styles.css";
-import Supper from "../public/assets/lastsupper.jpg";
 import Blog from "./components/blog/blog.js";
 import blogData from "./data/blogs.json";
 import Button from "./components/button/button";
@@ -11,7 +10,7 @@ export default function Home() {
       <div className="main">
         <Image
           className="main-picture"
-          src={Supper}
+          src={"/assets/lastsupper.jpg"}
           width={3000}
           height={1500}
           alt="last supper"
