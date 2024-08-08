@@ -1,32 +1,40 @@
+"use client";
+import React, { useState, useEffect } from "react";
 import Image from "next/image";
 import "./styles/globals.css";
 import "./styles.css";
 import Blog from "./components/blog/blog.js";
 import blogData from "./data/blogs.json";
 import Button from "./components/button/button";
+import quotes from "./data/quotes";
 
 export default function Home() {
+  const [currentQuoteIndex, setQurrentQuoteIndex] = useState(0);
+  const [fadeClass, setFadeClass] = useState("fade-in");
+
+  useEffect(() => {
+    const quoteInterval = setInterval(() => {
+      setFadeClass("");
+      setTimeout(() => {
+        setQurrentQuoteIndex((prevIndex) => (prevIndex + 1) % quotes.length);
+        setFadeClass("fade-in")
+      }, 1000);
+      
+    }, 10000);
+
+    return () => clearInterval(quoteInterval);
+  }, []);
   return (
     <>
       <div className="main">
-        {/* <Image
-          className="main-picture"
-          src={"/assets/lastsupper.jpg"}
-          width={3000}
-          height={1500}
-          alt="last supper"
-          layout="responsive"
-          objectFit="cover"
-        /> */}
-        <h1 className="main-header" >რაც შეუძლებელია კაცისთვის, ის შესაძლებელია ღმერთისთვის</h1>
-        {/* <div className="overlay"></div> */}
+        <h1 className={`main-header ${fadeClass}`}>{quotes[currentQuoteIndex]}</h1>
       </div>
       <div className="blogs container">
         {blogData.map((blog) => (
           <Blog key={blog.id} title={blog.title} image={blog.image} />
         ))}
       </div>
-      <Button redirectTo={"/info"} text={"Helloworld"}  />
+      <Button redirectTo={"/info"} text={"Helloworld"} />
       <div className="konteinrtest container">izi</div>
     </>
   );

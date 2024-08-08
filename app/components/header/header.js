@@ -15,19 +15,20 @@ function Header() {
     <div className="header">
       <div className="header-inner">
         <div className="header-left">
-          <Image
-            className="logo"
-            src={"/assets/cross.png"}
-            width={60}
-            height={60}
-            alt="man reading book"
-          />
+          <Link href="/">
+            <Image
+              className="logo"
+              src={"/assets/cross.png"}
+              width={60}
+              height={60}
+              alt="man reading book"
+            />
+          </Link>
         </div>
         <div className="burger-menu-icon" onClick={toggleMenu}>
           <MenuOutlined />
         </div>
 
-        
         <div className="header-right">
           <div className="header-item">
             <Link href="/" className="header-item-text">
