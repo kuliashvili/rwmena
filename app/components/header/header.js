@@ -4,6 +4,8 @@ import { useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
 import { MenuOutlined, CloseOutlined } from "@ant-design/icons";
+
+
 function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
@@ -26,7 +28,7 @@ function Header() {
           </Link>
         </div>
         <div className="burger-menu-icon" onClick={toggleMenu}>
-          <MenuOutlined />
+          <MenuOutlined width={20} height={20} />
         </div>
 
         <div className="header-right">
@@ -70,6 +72,7 @@ function Header() {
             </div>
           </div>
         </div>
+        <div className={`header-right-mobile-overlay ${isMenuOpen ? 'open' : ''}`} onClick={toggleMenu} ></div>
       </div>
     </div>
   );
