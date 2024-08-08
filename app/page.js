@@ -1,4 +1,5 @@
 import Image from "next/image";
+import "./styles/globals.css";
 import "./styles.css";
 import Blog from "./components/blog/blog.js";
 import blogData from "./data/blogs.json";
@@ -8,7 +9,7 @@ export default function Home() {
   return (
     <>
       <div className="main">
-        <Image
+        {/* <Image
           className="main-picture"
           src={"/assets/lastsupper.jpg"}
           width={3000}
@@ -16,8 +17,9 @@ export default function Home() {
           alt="last supper"
           layout="responsive"
           objectFit="cover"
-        />
-        <div className="overlay"></div>
+        /> */}
+        <h1 className="main-header" >რაც შეუძლებელია კაცისთვის, ის შესაძლებელია ღმერთისთვის</h1>
+        {/* <div className="overlay"></div> */}
       </div>
       <div className="blogs container">
         {blogData.map((blog) => (

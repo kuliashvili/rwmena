@@ -1,4 +1,4 @@
-/* Color Palette */
+
 :root {
     --color-primary: #fb2056;
     --color-secondary: #004668;
@@ -54,22 +54,19 @@
     --space-1024: 1024px;
   
     /* Typography */
-    --font-primary: "Roboto", serif;
+    --font-primary: "saeklesio", serif;
   
-    /* Font Sizes */
+    /* Font Sizes Texts*/
     --font-small: 12px;
-    --font-medium: 14px;
-    --font-large: 16px;
-    --font-extra-large: 20px;
-    --font-header: 50px;
+    --font-medium: 17px;
+    --font-large: 22px;
+    --font-extra-large: 28px;
   
     /* Headings */
-    --font-h1: 40px;
+    --font-h1: 35px;
     --font-h2: 30px;
     --font-h3: 26px;
-    --font-h4: 24px;
-    --font-h5: 20px;
-    --font-h6: 15px;
+    --font-h4: 22px;
   
     /* Font Weights */
     --font-weight-light: 300;
@@ -78,31 +75,14 @@
     --font-weight-bold: 700;
   
     /* section Spacing */
-    --spacing-16: 16px;
-    --spacing-24: 24px;
-    --spacing-36: 36px;
     --spacing-50: 50px;
   
-    /* Icons */
-    --icon-small: 16px;
-    --icon-medium: 20px;
-    --icon-large: 28px;
-    --icon-extra-large: 36px;
   
     /* Layout */
     --container-width-desktop: 1200px;
     --container-width-tablet: 768px;
     --container-width-mobile: 577px;
   
-    /* Margin */
-    --margin-desktop: 32px;
-    --margin-tablet: 16px;
-    --margin-mobile: 8px;
-  
-    /* Padding */
-    --padding-desktop: 32px;
-    --padding-tablet: 16px;
-    --padding-mobile: 8px;
   
     /* Borders */
     --border-thin: 1px;
@@ -112,13 +92,5 @@
     --border-radius-medium: 16px;
     --border-radius-large: 32px;
   
-    /* Button height */
-    --height-small: 32px;
-    --height-medium: 36px;
-    --height-large: 50px;
-    /* Button width */
-    --width-small: 120px;
-    --width-medium: 150px;
-    --width-large: 180px;
   }
   

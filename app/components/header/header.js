@@ -10,7 +10,6 @@ function Header() {
   const toggleMenu = () => {
     setIsMenuOpen(!isMenuOpen);
   };
-  // `header-right ${isMenuOpen ? "open" : ""}`
 
   return (
     <div className="header">
@@ -18,7 +17,7 @@ function Header() {
         <div className="header-left">
           <Image
             className="logo"
-            src={"/assets/reading.jpg"}
+            src={"/assets/cross.png"}
             width={60}
             height={60}
             alt="man reading book"

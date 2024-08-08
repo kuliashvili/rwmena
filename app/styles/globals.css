@@ -1,3 +1,12 @@
+@font-face {
+  font-family: 'saeklesio';
+  src: url('/fonts/gl-saeklesio-regular.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;  
+}
+
+
+
 * {
   padding: 0;
   margin: 0;
@@ -18,6 +27,7 @@ body {
   align-items: center;
   overflow-x: hidden;
   background-color: #ffdc73;
+  font-family: 'saeklesio', sans-serif;
 }
 
 .content,
