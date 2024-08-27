@@ -29,7 +29,6 @@
   background-color: gray;
   width: 100%;
   margin-bottom: 20px;
-  padding: 30px 0px;
   border-radius: 12px;
   text-align: center;
 }
@@ -41,6 +40,7 @@
   margin: 20px;
   font-size: var(--font-medium);
   text-decoration: none;
+  color: initial; 
 }
 .main {
   width: 100vw;
@@ -90,11 +90,13 @@
   background-color: rgba(239, 236, 73, 0.1);
   z-index: 1;
 }
-.buttonn {
+.button {
   display: inline-block;
   min-width: 120px;
   height: 50px;
   border-radius: 50px;
+  margin-bottom: 30px;
+
 }
 
 

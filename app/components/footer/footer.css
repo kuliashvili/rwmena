@@ -25,7 +25,7 @@
 }
 .footer-text {
   font-size: var(--font-medium);
-  margin-bottom: 40px;
+  margin-bottom: 20px;
 }
 .footer-header {
   font-size: var(--font-medium);
@@ -38,7 +38,7 @@
   justify-content: space-between;
   align-items: center;
   font-size: 17px;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
 
 @media (min-width: 480px) {
