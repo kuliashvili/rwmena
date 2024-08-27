@@ -16,7 +16,7 @@ export default function Home() {
   useEffect(() => {
     const fetchPosts = async () => {
       try {
-        const res = await fetch("http://localhost:3001/api/posts");
+        const res = await fetch("https://dummyjson.com/posts");
         const { posts } = await res.json();
         setPosts(posts);
       } catch (error) {
@@ -46,7 +46,7 @@ export default function Home() {
         </h1>
       </div>
       <div className="container">
-        <h1>ბლოგები</h1>
+        <h1 className="heading" >ბლოგები</h1>
         <div className="blogs" style={{ paddingTop: "40px" }}>
           {posts.map((post) => (
             <Link className="blog" href={`/posts/${post.id}`} key={post.id}>

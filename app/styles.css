@@ -33,8 +33,14 @@
   border-radius: 12px;
   text-align: center;
 }
+.heading{
+  font-size: var(--font-header);
+  margin-bottom: 20px;
+}
 .blog-header {
   margin: 20px;
+  font-size: var(--font-medium);
+  text-decoration: none;
 }
 .main {
   width: 100vw;
@@ -90,8 +96,7 @@
   height: 50px;
   border-radius: 50px;
 }
-.blog-header {
-}
+
 
 .konteinrtest {
   min-height: 500px;
