@@ -1,4 +1,6 @@
 import "./footer.css";
+
+
 function Footer() {
   return (
     <div className="footer">
@@ -9,6 +11,8 @@ function Footer() {
             რწმენის როლი და მისი გავლენა ჩვენს ცხოვრებაში,რწმენის როლი და მისი
             გავლენა ჩვენს ცხოვრებაში
           </p>
+        </div>
+        <div className="footer-right">
           <div className="footer-details">
             <div className="details-left">ფოსტა:</div>
             <div className="details-right">info@rwmena.com</div>

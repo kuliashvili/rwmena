@@ -19,14 +19,13 @@
   .blog {
     width: 100%;
     min-width: 250px;
-    border: 1px solid #e8e8ea;
     border-radius: 12px;
     display: flex;
     flex-direction: column;
     justify-content: start;
     align-items: center;
     margin-bottom: 20px;
-    background-color: #bf9b30;
+    background-color: var(--color-background-second);
   }
   .blog-inner {
     width: 100%;
