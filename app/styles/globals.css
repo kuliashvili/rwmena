@@ -10,6 +10,7 @@
 * {
   padding: 0;
   margin: 0;
+  line-height: var(--line-height);
 }
 .content {
   min-height: calc(100vh - 210px);

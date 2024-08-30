@@ -1,5 +1,6 @@
 import blogData from "../../data/blogs.json";
 import Image from "next/image";
+import "./posts.css"
 
 // Function to generate static parameters for dynamic routes
 export async function generateStaticParams() {
@@ -21,9 +22,9 @@ export default function Post({ params }) {
 
   return (
     <div>
-      <Image src={post.image} width={120} height={80} alt={post.title} />
+      <Image className="blog-image"  src={post.image} width={120} height={80} alt={post.title} />
       <h1 className="blog-header">{post.title}</h1>
-      <p>{post.content}</p>
+      <p className="blog-content" >{post.content}</p>
     </div>
   );
 }
