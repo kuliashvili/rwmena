@@ -1,15 +1,24 @@
 
 :root {
-    --color-primary: #ffbf00;
+    --color-primary: #ece9e3;
+    --color-button: #d8cbb1;
     --color-secondary: #ffcf40;
     --color-white: #ffffff;
     --color-black: #000000;
-    --color-background: #ffdc73;
-    --color-background-second: #a67c00;
-    --color-danger: #dc3545;
-    --color-info: #17a2b8;
-    --color-white: #ffffff;
-    --color-hover: #d10c3d;
+    --color-blog: #e0dede;
+    --background-main: #ece1d1;
+    --background-secondary: #c1c1c1;
+
+    /* Gold: ffd700
+Goldenrod: daa520
+Dark Goldenrod: b8860b
+Amber: ffbf00  ////////
+Light Goldenrod: fafad2
+Golden Yellow: ffdf00
+Mustard: ffdb58
+Sunglow: ffcc33    ///
+Orange Yellow: ffae42
+Vegas Gold: c5b358 */
   
     /* Sizes */
     --size-0: 0px;

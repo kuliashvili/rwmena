@@ -3,8 +3,8 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: var(--color-black);
-  color: var(--color-white);
+  background-color: var(--background-secondary);
+  color: var(--color-black);
 }
 .footer-inner {
   width: 90%;
