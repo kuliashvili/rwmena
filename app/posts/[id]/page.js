@@ -23,7 +23,7 @@ export default function Post({ params }) {
   return (
     <div>
       <Image className="blog-image"  src={post.image} width={120} height={80} alt={post.title} />
-      <h1 className="blog-header">{post.title}</h1>
+      <h1 className="blog-header-inside">{post.title}</h1>
       <p className="blog-content" >{post.content}</p>
     </div>
   );

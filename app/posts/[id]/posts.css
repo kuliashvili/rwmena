@@ -5,7 +5,7 @@
     object-fit: cover;
     border-radius: 12px;
 }
-.blog-header{
+.blog-header-inside{
     margin: 20px 0;
     font-size: var(--font-header);
     text-decoration: none;
@@ -16,4 +16,5 @@
     font-size: var(--font-medium);
     text-decoration: none;
     color: var(--color-black); 
+    white-space: pre-wrap;
 }

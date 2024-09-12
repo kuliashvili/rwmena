@@ -6,7 +6,6 @@ function Footer() {
     <div className="footer">
       <div className="footer-inner">
         <div className="footer-left">
-          <p className="footer-header">ინფორმაცია</p>
           <p className="footer-text">
             რწმენის როლი და მისი გავლენა ჩვენს ცხოვრებაში,რწმენის როლი და მისი
             გავლენა ჩვენს ცხოვრებაში
