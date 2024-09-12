@@ -122,6 +122,7 @@
   .main-header {
     font-size: var(--font-h1);
   }
+
 }
 
 @media (min-width: 992px) {

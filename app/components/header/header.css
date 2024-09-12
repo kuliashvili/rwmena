@@ -31,7 +31,7 @@
     top: 0;
     width: 50%;
     height: 100vh;
-    background-color: var(--color-background-second);
+    background-color: var(--background-main);
     display: flex;
     flex-direction: column;
     justify-content: start;
