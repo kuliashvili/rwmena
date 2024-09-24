@@ -6,7 +6,7 @@ import "./styles.css";
 import blogData from "./data/blogs.json";
 import Button from "./components/button/button";
 import quotes from "./data/quotes";
-import Blog from "./components/blog/blog.js";
+import Blog from "./components/blog/blog.js"
 
 export default function Home() {
   const [currentQuoteIndex, setQurrentQuoteIndex] = useState(0);
