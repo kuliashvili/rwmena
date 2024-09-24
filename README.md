@@ -20,13 +20,6 @@ You can view the current version of the website at: [https://rwmena.kuliashvili.
 ## Contributing
 
 I welcome contributions to improve the website. Feel free to fork the repository and submit pull requests for any enhancements or fixes.
-
-## License
-
-This project is licensed under the MIT License. 
-
----
-
 Feel free to modify any section as needed!
 
 ## Deploy on Vercel
