@@ -1,7 +1,5 @@
-Here's a sample README for your GitHub repository:
-
+current version of the website: [https://rwmena.kuliashvili.com/](https://rwmena.kuliashvili.com/)
 ---
-
 # Wrmena
 
 **Wrmena** is a website dedicated to promoting Christianity and the teachings of Jesus Christ, specifically aimed at the Georgian community. The project aims to spread knowledge and content related to Christianity among Georgian people.
