@@ -4,7 +4,7 @@ import Image from "next/image";
 import "./styles/globals.css";
 import "./styles.css";
 import blogData from "./data/blogs.json";
-import Button from "./components/button/button";
+import Button from "./components/button/button"
 import quotes from "./data/quotes"
 import Blog from "./components/blog/blog.js"
 
